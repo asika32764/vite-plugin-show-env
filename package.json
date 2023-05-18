@@ -6,7 +6,10 @@
   "types": "./index.d.ts",
   "author": "Simon Asika",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.8"
   }
 }
