@@ -10,7 +10,6 @@ const chalk = require('chalk');
 module.exports = function showEnv(exposes = {}) {
   return {
     name: 'show-env',
-    nodeEnv: null,
 
     configResolved(config) {
       if (exposes && Array.isArray(exposes) && exposes.length > 0) {

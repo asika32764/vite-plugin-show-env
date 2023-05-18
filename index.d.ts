@@ -5,6 +5,8 @@
  * @license    __LICENSE__
  */
 
-declare function showEnv(options: any) : void;
+import { Plugin } from 'vite';
+
+declare function showEnv(options: any): Plugin;
 
 export { showEnv as default };

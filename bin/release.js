@@ -27,7 +27,7 @@ if (input['help'] || input['h']) {
 }
 
 const version = input._[0];
-const branch = input['b'] || 'master';
+const branch = input['b'] || 'main';
 
 if (!version) {
   console.log('Please provide a version.', "\n", help);
