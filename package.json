@@ -1,0 +1,12 @@
+{
+  "name": "@asika32764/vite-plugin-show-env",
+  "version": "1.0.0",
+  "description": "Vite plugin to show some important env values when compiling.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "author": "Simon Asika",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^3.0.0"
+  }
+}
