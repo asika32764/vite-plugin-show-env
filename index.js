@@ -1,10 +1,3 @@
-/**
- * Part of vite-plugin-node-env project.
- *
- * @copyright  Copyright (C) 2023 __ORGANIZATION__.
- * @license    __LICENSE__
- */
-
 const chalk = require('chalk');
 
 module.exports = function showEnv(exposes = {}) {
@@ -21,7 +14,7 @@ module.exports = function showEnv(exposes = {}) {
         for (const env of exposes) {
           console.log(
             `  ${env}:`,
-            chalk.green(config.env[env])
+            chalk.green(config.env[env] ?? import.meta.env[env])
           );
         }
 
