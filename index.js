@@ -14,7 +14,7 @@ module.exports = function showEnv(exposes = {}) {
         for (const env of exposes) {
           console.log(
             `  ${env}:`,
-            chalk.green(config.env[env] ?? import.meta.env[env])
+            chalk.green(config.env[env] ?? import.meta.env?.[env])
           );
         }
 
