@@ -1,6 +1,6 @@
-const chalk = require('chalk');
+import chalk from 'chalk';
 
-module.exports = function showEnv(exposes = {}) {
+export default function showEnv(exposes = {}) {
   return {
     name: 'show-env',
 
