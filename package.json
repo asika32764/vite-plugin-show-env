@@ -4,11 +4,11 @@
   "homepage": "https://github.com/asika32764/vite-plugin-show-env",
   "description": "Vite plugin to show some important env values when compiling.",
   "exports": {
-    "import": "./index.js",
+    "import": "./index.mjs",
     "require": "./index.cjs"
   },
   "main": "index.cjs",
-  "module": "index.js",
+  "module": "index.mjs",
   "types": "./index.d.ts",
   "author": "Simon Asika",
   "license": "MIT",
