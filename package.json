@@ -1,6 +1,6 @@
 {
   "name": "@asika32764/vite-plugin-show-env",
-  "version": "1.1.2",
+  "version": "patch",
   "homepage": "https://github.com/asika32764/vite-plugin-show-env",
   "description": "Vite plugin to show some important env values when compiling.",
   "exports": {
